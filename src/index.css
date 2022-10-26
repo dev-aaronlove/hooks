@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1, p { font-family: sans-serif; }
+
+h1.profile-userName {
+  margin: 0;
+  font-size: 1.75rem;
+  color: #53D2FA;
+}
+
+p.profile-fullName {
+  margin-top: 0;
+  font-size: 1rem;
+  color: #FFF;
+  font-weight: lighter;
+}
+
+p.profile-team {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: rgb(151, 243, 255, 0.9);
+  font-weight: lighter;
+}
+
+button.profile-button {
+  cursor: pointer;
+  margin-right: 0.25rem;
+  padding: 0.25rem;
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(151, 243, 255, 0.9);
+  color: rgb(8, 44, 54);
+}
+
+button.profile-button:hover {
+  background-color: rgba(151, 243, 255, 0.7);
+  color: rgba(8, 44, 54, 0.616);
+}
+
+img:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /*For IEB and earlier*/
+}
